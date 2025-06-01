@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+
+}
+
+.logo h1{
+    padding: 15px 15px;
+    color: #f0de88;
+    
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 340px;
+}
+
+.icon i{
+    font-size: 40px;
+    color: #f0de88;
+}
+
+span{
+    color: #f0de88;
+}
+
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    margin-left: -30%;
+
+}
+
+.header ul li{
+    list-style: none;
+    font-size: 30px;
+
+}
+.container{
+    
+}
+
+/*section-two*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130vh;
+}
+
+.left-side{
+    width: 350px;
+    height: 440px;
+}
+
+.left-side h1{
+    font-size: 55px;
+}
+
+.left-side p{
+    font-size: 17px;
+    line-height: 20px;
+
+}
+
+.left-side button{
+    background-color: black;
+    color: #f0de88;
+    border: none;
+    margin-top: 26px;
+    padding: 20px 90px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/*rigth-side img*/
+
+.rigth-side{
+    width: 230px;
+    height: 230px;
+    padding: 20px 190px;
+}
+  
+/*section-two */
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+
+.box img{
+    width: 250px;
+    height: 150px;
+}
+
+.contect{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.contect{
+    position: relative;
+    top:  14%;
+    margin-bottom: 10px;
+}
+
+.box button{
+    background-color: black;
+    color: #f0de88;
+    padding: 10px 90px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 8px 10px;
+
+}
