@@ -112,6 +112,13 @@ button:hover{
 }
   
 /*section-two */
+
+#yt{
+    color: #f0de88;
+    text-align: center;
+    background-color: black;
+}
+
 .parent{
     display: flex;
     justify-content: space-evenly;
