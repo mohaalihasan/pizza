@@ -75,20 +75,32 @@ span{
 }
 
 .left-side p{
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 30px;
 
 }
 
 .left-side button{
-    background-color: black;
-    color: #f0de88;
+    align-items: center;
+    padding: 10px 60px;
     border: none;
-    margin-top: 26px;
-    padding: 20px 90px;
-    font-size: 18px;
-    margin-top: 10px;
-    border-radius: 8px;
+    background-color: rgb(3, 75, 58);
+    border-radius: 10px;
+    color: white;
+    font-weight:4100;
+    font-size: 20px;
+
+    box-shadow:
+   -3px -3px 4px white,
+    2px 2px 4px rgb(80, 80, 80);
+
+}
+button:hover{
+    box-shadow:
+    inset -1px -1px 4px rgb(251, 170, 18),
+    inset 2px 2px 4px rgb(21, 22, 22);
+    color: black;
 }
 
 /*rigth-side img*/
@@ -143,8 +155,40 @@ span{
 
 }
 
+section{
+    background-color: black;
+    color: #f0de88;
+    height: 50vh;
+}
+
+.icne{
+    height: 10vh;
+}
+
+.gb{
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.left{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    height: 25px;
+    width: 280px;margin-bottom: 10px;
+    /* padding: 8px 6px; */
+}
+
+
+
 footer{
     background-color: black;
+    margin-top: 200px;
     text-align: center;
     width: 100%;
     position: fixed;
